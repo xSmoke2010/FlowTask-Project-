@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task - Flowtask</title>
+    <link rel="stylesheet" href="Add.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand">
+            <img src="./image/image copy 4.png" alt="logo" class="logo">
+            <h1>Flowtask</h1>
+        </div>
+
+        <div class="actions">
+            <button onclick="location.href='dashboard.html'">Back to board</button>
+            <button class="logout" onclick="location.href='login.html'">Logout</button>
+        </div>
+    </header>
+
+    <main class="form-wrap">
+        <h2>Add New Task</h2>
+
+        <form>
+            <label>Task Title</label>
+            <input type="text" placeholder="Write the task name">
+
+            <label>Task Description</label>
+            <textarea placeholder="Task Description" rows="5"></textarea>
+
+            <label>Task Category</label>
+            <select>
+                <option>To-Do</option>
+                <option>In Progress</option>
+                <option>Done</option>
+            </select>
+
+            <button type="submit" class="submit" onclick="location.href='Add.html'">Add Task</button>
+        </form>
+    </main>
+
+</body>
+</html>

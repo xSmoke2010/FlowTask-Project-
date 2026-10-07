@@ -69,7 +69,41 @@ button:hover {
     margin-bottom: 25px;
 }
 
+.card a:hover{
+    color: gold;
+}
 .card button {
     width: 100%;
     justify-content: center;
+ }
+/*  
+.or {
+    color: white;
+    margin: 20px 0;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    border: 2px solid gold;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.signup-btn {
+    background-color: red;
+    color: white;
+    border-color: red;
+    font-weight: bold;
+}
+
+.signup-btn:hover {
+    background-color: gold;
+    color: black;
+    border-color: gold;
+} */ */

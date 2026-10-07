@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    background-color: black;
+    width: 800px;
+    max-width: 95%;
+    margin: 70px auto;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border: 2px solid gold;
+    border-top: 6px solid red;
+    border-radius: 12px;
+}
+
+button{
+    padding: 2px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.side {
+    flex: 1;
+    min-width: 250px;
+}
+
+.logo {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: gold;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    color: white;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+}
+
+.account:hover {
+    background-color: #222;
+}
+
+.account small {
+    display: block;
+    color: #bbb;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+}

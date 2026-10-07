@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 12px 24px;
+    border-bottom: 3px solid #B22222;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    height: 44px;
+}
+
+h1 {
+    color: gold;
+    font-size: 24px;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 2px solid gold;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+.outline {
+    background-color: black;
+    color: gold;
+}
+
+.logout {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.logout:hover {
+    background-color: gold;
+    color: black;
+    border-color: gold;
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.column {
+    flex: 1;
+    background-color: #f2f2f2;
+    border-top: 5px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.column h2 {
+    color: #222;
+    margin-bottom: 15px;
+}
